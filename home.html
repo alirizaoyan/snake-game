@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <style>
+        canvas{
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mid{
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+<canvas id="snake" width="608" height="608"></canvas>
+<div class="mid">
+    <button id="restart" type="button" class="btn btn-danger" onclick="restart()" style="position: absolute">Restart</button>
+</div>
+<script src="snake.js"></script>
+</body>
+</html>
